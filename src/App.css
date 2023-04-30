@@ -2,3 +2,60 @@
   text-align: center;
 }
 
+.BotCollection {
+  padding: 3px;
+  margin: 3px;
+  border: solid;
+  border-color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.BotContainer {
+  width: 182px;
+  flex-basis: 1;
+  flex-grow: 1;
+  background-color: #cdcccc;
+  border: solid;
+  border-color: grey;
+  margin: 5px;
+  
+}
+
+.BotImg {
+  height: 25vh;
+  width: 100px;
+}
+
+p {
+  font-size: 10px;
+}
+
+section{
+  margin-top: 75px;
+}
+
+.ArmyContainer{
+  width: 182px;
+  flex-basis: 1;
+  flex-grow: 1;
+  background-color: #cdcccc;
+  border: solid;
+  border-color: grey;
+  margin: 5px;
+}
+
+.ArmyCollection{
+  padding: 3px;
+  margin: 3px;
+  border: solid;
+  border-color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button{
+  background-color: red;
+  border: solid;
+  border-color: transparent;
+}
