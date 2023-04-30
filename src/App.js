@@ -27,14 +27,22 @@ function App() {
 
   return (
     <div className="App">
+      <h1>BOT BATTLR</h1>
       <section>
         <h2>Your Bot Army</h2>
-        <YourBotArmy
-          onDeleteBot={deleteBot}
-          bots={bots}
-          enlistedBots={enlistedBots}
-          setEnlistedBots={setEnlistedBots}
-        />
+        {enlistedBots.length === 0 ? (
+          <>
+            <h4>Your Bot Army is empty.</h4>
+            <h4>Please select your bot</h4>
+          </>
+        ) : (
+          <YourBotArmy
+            onDeleteBot={deleteBot}
+            bots={bots}
+            enlistedBots={enlistedBots}
+            setEnlistedBots={setEnlistedBots}
+          />
+        )}
       </section>
       <section>
         <h2>Bot Collection</h2>

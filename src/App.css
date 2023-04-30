@@ -30,6 +30,14 @@
 p {
   font-size: 10px;
 }
+h1{
+  font-size: 50px;
+  color: aqua;
+}
+
+h4{
+  color: red;
+}
 
 section{
   margin-top: 75px;
